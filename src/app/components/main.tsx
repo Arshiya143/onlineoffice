@@ -9,14 +9,10 @@ import {
   } from "@/components/ui/carousel"
   import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
+import Image from 'next/image'
 
   
 export default function Main(){
-    const data = [
-        { id: 1, name: "John Doe", email: "john@example.com", role: "Admin" },
-        { id: 2, name: "Jane Smith", email: "jane@example.com", role: "Editor" },
-        { id: 3, name: "Mark Johnson", email: "mark@example.com", role: "Viewer" },
-      ];
     return(
         <>
         <ScrollArea className="bg-lightwhite rounded-tl-3xl w-full">
@@ -49,7 +45,7 @@ export default function Main(){
                         <div className="p-1">
                         <Card key={index} className="group relative overflow-hidden">
                             <CardContent className="p-0">
-                                <img src={item.image} alt={item.title} className="w-full h-48 object-cover" />
+                                <Image src={item.image} alt={item.title} className="w-full h-48 object-cover" />
                                 <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end justify-end opacity-0 group-hover:opacity-100 transition-opacity p-4">
                                 <Button size="icon" variant="secondary" className="rounded-full bg-black text-white">
                                 <i className="ri-add-line ri-xl"></i>
@@ -75,8 +71,8 @@ export default function Main(){
                                 { color: "bg-blue-500", title: "Monthly", project: "Business Revenue",owner:"Rohan Verma", time: "2 hours ago" },
                                 { color: "bg-purple-500", title: "Black Money", project: "College Project",owner:"Owned By me", time: "02-09-2024" },
                                 { color: "bg-orange-300", title: "Certificate", project: "Certificate Templates",owner:"Owned By me", time: "16-11-2023" },
-                            ].map((item, index) =>  (
-                            <TableRow className="border-b">
+                            ].map((item,index) =>  (
+                            <TableRow key={index} className="border-b">
                             <TableCell className="py-2"><div className={`w-32 h-16 ${item.color} rounded-lg flex items-center justify-center text-white font-semibold`}>
                                     {item.title}
                                 </div></TableCell>
