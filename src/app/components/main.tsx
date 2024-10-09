@@ -45,7 +45,7 @@ export default function Main(){
                         <div className="p-1">
                         <Card key={index} className="group relative overflow-hidden">
                             <CardContent className="p-0">
-                                <Image src={item.image} alt={item.title} className="w-full h-48 object-cover" />
+                                <Image src={item.image} alt={item.title} width={400} height={400} className="object-cover" />
                                 <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end justify-end opacity-0 group-hover:opacity-100 transition-opacity p-4">
                                 <Button size="icon" variant="secondary" className="rounded-full bg-black text-white">
                                 <i className="ri-add-line ri-xl"></i>
