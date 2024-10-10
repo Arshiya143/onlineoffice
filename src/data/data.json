@@ -1,0 +1,100 @@
+{
+    "apps":[
+        { "title": "Word", "image": "/word.png", "url":"/word"},
+        { "title": "Excel", "image": "/excel.jpg","url":"/excel"},
+        { "title": "PowerPoint", "image": "/ppt.jpg", "url":"/powerpoint" },
+        { "title": "PDF", "image": "/pdf.jpg", "url":"/pdf" }
+    ],
+    "pptSidebar":[
+        { "icon": "ri-home-5-line", "name": "Home", "url":"/powerpoint"},
+        { "icon": "ri-edit-box-line", "name": "Create", "url":"/create"},
+        { "icon": "ri-apps-2-line", "name": "Apps", "url":"/apps"},
+        { "icon": "ri-lightbulb-line", "name": "Learn", "url":"/learn"},
+        { "icon": "ri-settings-5-line", "name": "Settings", "url":"/setting"}
+    ],
+    "pptTitle": "Build Powerful Presentations, Seamlessly",
+    "pptDesc": "Elevate Your Ideas, Designed to Captivate and Engage.",
+    "pptSearch": "Search for slides, themes and designs...",
+    "pptImages":[
+        { "title": "Blank Presentation", "image": "/ppt1.jpg"},
+        { "title": "Business Presentation", "image": "/ppt2.jpg" },
+        { "title": "Project Planning", "image": "/ppt3.jpg" },
+        { "title": "Technology", "image": "/ppt4.jpg" },
+        { "title": "IT", "image": "/ppt2.jpg" }
+    ],
+    "pptList":[
+        { "color": "#EE361C","title": "Rates Card", "project": "Office Research","owner":"Owned By me", "time": "24 mins ago" },
+        { "color": "#2B7CD3","title": "Monthly", "project": "Business Revenue","owner":"Rohan Verma", "time": "2 hours ago" },
+        { "color": "#B710E0","title": "Black Money", "project": "College Project","owner":"Owned By me", "time": "02-09-2024" },
+        { "color": "#FF8F6B",  "title": "Certificate", "project": "Certificate Templates","owner":"Owned By me", "time": "16-11-2023" }
+    ],
+    "pdfSidebar":[
+        { "icon": "ri-home-5-line", "name": "Home", "url":"/pdf"},
+        { "icon": "ri-edit-box-line", "name": "Create", "url":"/powerpoint"},
+        { "icon": "ri-apps-2-line", "name": "Apps", "url":"/apps"},
+        { "icon": "ri-lightbulb-line", "name": "Learn", "url":"/learn"},
+        { "icon": "ri-settings-5-line", "name": "Settings", "url":"/setting"}
+    ],
+    "pdfTitle": "Every Essential PDF Tool Consolidated for You",
+    "pdfDesc": "From editing to merging, discover tools that make working with PDFs a breeze.",
+    "pdfSearch": "Search your PDF library or PDF documents...",
+    "pdfImages":[
+        { "title": "Merge PDFs Effortlessly", "image": "/pdf1.png"},
+        { "title": "Split PDF", "image": "/pdf2.png" },
+        { "title": "PDF to Word Converter", "image": "/pdf3.png" },
+        { "title": "PDF to Powerpoint Converter", "image": "/pdf4.png" },
+        { "title": "Split PDF", "image": "/pdf2.png" }
+    ],
+    "pdfList":[
+        { "color": "#EE361C", "title": "Rates Card", "project": "Office Research","owner":"Owned By me", "time": "24 mins ago" },
+        { "color": "#2B7CD3", "title": "Monthly", "project": "Business Revenue","owner":"Rohan Verma", "time": "2 hours ago" },
+        { "color": "#B710E0", "title": "Black Money", "project": "College Project","owner":"Owned By me", "time": "02-09-2024" },
+        { "color": "#FF8F6B", "title": "Certificate", "project": "Certificate Templates","owner":"Owned By me", "time": "16-11-2023" }
+    ],    
+    "wordSidebar":[
+        { "icon": "ri-home-5-line", "name": "Home", "url":"/word"},
+        { "icon": "ri-edit-box-line", "name": "Create", "url":"/create"},
+        { "icon": "ri-apps-2-line", "name": "Apps", "url":"/apps"},
+        { "icon": "ri-lightbulb-line", "name": "Learn", "url":"/learn"},
+        { "icon": "ri-settings-5-line", "name": "Settings", "url":"/setting"}
+    ],
+    "wordTitle": "Crafting Documents with Ease and Precision",
+    "wordDesc": "Experience a new level of document management and collaboration.",
+    "WordSearch": "Search for documents by title or topic...",
+    "wordImages":[
+        { "title": "Blank Document", "image": "/word1.jpg"},
+        { "title": "Letter", "image": "/word2.jpg" },
+        { "title": "Resume", "image": "/word3.jpg" },
+        { "title": "Study Plan", "image": "/word2.jpg" },
+        { "title": "Project Documentation", "image": "/word1.jpg" }
+    ],
+    "wordList":[
+        { "color": "#EE361C","title": "Rates Card", "project": "Office Research","owner":"Owned By me", "time": "24 mins ago" },
+        { "color": "#2B7CD3","title": "Monthly", "project": "Business Revenue","owner":"Rohan Verma", "time": "2 hours ago" },
+        { "color": "#B710E0","title": "Black Money", "project": "College Project","owner":"Owned By me", "time": "02-09-2024" },
+        { "color": "#FF8F6B","title": "Certificate", "project": "Certificate Templates","owner":"Owned By me", "time": "16-11-2023" }
+    ],
+    "excelSidebar":[
+        { "icon": "ri-home-5-line", "name": "Home", "url":"/excel"},
+        { "icon": "ri-edit-box-line", "name": "Create", "url":"/create"},
+        { "icon": "ri-apps-2-line", "name": "Apps", "url":"/apps"},
+        { "icon": "ri-lightbulb-line", "name": "Learn", "url":"/learn"},
+        { "icon": "ri-settings-5-line", "name": "Settings", "url":"/setting"}
+    ],
+    "excelTitle": "Create with Confidence, Effortlessly",
+    "excelDesc": "Stay on top of every project, built to inspire and deliver.",
+    "excelSearch": "Search for spreadsheet, table & charts...",
+    "excelImages":[
+        { "title": "Blank Spreadsheet", "image": "/excel1.jpg"},
+        { "title": "Annual Report Analysis", "image": "/excel2.jpg" },
+        { "title": "Annual Calender Report", "image": "/excel3.jpg" },
+        { "title": "Chart Data Analysis", "image": "/excel2.jpg" },
+        { "title": "Annual Report Analysis", "image": "/excel1.jpg" }
+    ],
+    "excelList":[
+        { "color": "#EE361C","title": "Rates Card", "project": "Office Research","owner":"Owned By me", "time": "24 mins ago" },
+        { "color": "#2B7CD3","title": "Monthly", "project": "Business Revenue","owner":"Rohan Verma", "time": "2 hours ago" },
+        { "color": "#B710E0","title": "Black Money", "project": "College Project","owner":"Owned By me", "time": "02-09-2024" },
+        { "color": "#FF8F6B","title": "Certificate", "project": "Certificate Templates","owner":"Owned By me", "time": "16-11-2023" }
+    ]
+}
